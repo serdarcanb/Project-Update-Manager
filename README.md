@@ -31,7 +31,8 @@ The Project Update Manager is a flexible tool written in Python using Flask, des
 
 ## Usage
 
-1. Clone the repository:
+Clone the repository:
+
    git clone https://github.com/serdarcanb/Project-Update-Manager.git
    cd Project-Update-Manager
 
