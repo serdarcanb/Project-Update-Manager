@@ -1,0 +1,14 @@
+[Unit]
+Description=updateder
+
+[Service]
+User=root
+WorkingDirectory=/root/Project-Update-Manager/
+ExecStart=/usr/bin/python3 main.py
+Restart=always
+StandardOutput=/var/log/updateder/out-start.log
+StandardError=/var/log/updateder/error-start.log
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target
